@@ -26,15 +26,13 @@ git clone https://github.com/edilauxillea/stratified-k-fold-cross-validation.git
 ```
 2. Place your cancer dataset in the same directory as the provided code file.
 3. Open the code file Stratified-K-Fold Cross Validation in a text editor or an integrated development environment (IDE) of your choice.
-4. Modify the code to load your dataset using pandas. You may need to update the file name and any other relevant parameters.
-5. Customize the machine learning model or algorithm you want to evaluate within the cross-validation loop. You can replace the existing code with your own model or use scikit-learn's built-in models.
-6. Adjust any other parameters according to your specific requirements, such as the number of folds (k) or the performance metrics you want to calculate.
-7. Save the modified code file.
-8. Open a terminal or command prompt and navigate to the directory containing the code file and the cancer dataset.
-9. Run the code by executing the following command:
-```
-python stratified_kfold_cv.py
-```
+4. Open Jupyter Notebook or JupyterLab on your local machine.
+5. Navigate to the directory where you cloned the repository, specifically the stratified-k-fold-cv-cancer-dataset folder.
+6. Open the Cross_Validation.ipynb file within Jupyter Notebook or JupyterLab.
+7. Read through the notebook and make any necessary modifications, such as updating the file path to your cancer dataset.
+8. Execute each code cell sequentially by either clicking on the "Run" button or using the keyboard shortcut Shift + Enter. This will run the code in each cell and produce the corresponding output.
+9. After executing the final code cell, the program will output the performance metrics for each fold and calculate the average metrics across all folds.
+
 The program will execute the stratified k-fold cross-validation and display the evaluation results, including the average performance metrics across all folds.
 
 # Results
