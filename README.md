@@ -12,6 +12,7 @@ To run the code, you need the following dependencies:
   - scikit-learn library (version 0.24.2 or higher)
   - pandas library (version 1.2.4 or higher)
   - numpy library (version 1.20.2 or higher)
+
 You can install these dependencies using pip:
 ```
 pip install scikit-learn pandas numpy
